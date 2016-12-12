@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Hour Of Code</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mukesh Pathak">
+    <meta name="description" content="Hour Of Code">
+    <meta property="og:title" content="Hour Of Code"/>
+    <meta property="og:site_name" content="Hour Of Code"/>
+
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body bgcolor="#3cb8f9">
+
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=1734983536724480";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+    <h1>Hour of Code is Computer Science Education Week</h1>
+    <div class="container">
+      <div class="digitalcamp2017">
+        The Hour of Code is a global movement by Computer Science Education Week and Code.org reaching tens of millions of students in 180+ countries through a one-hour introduction to computer science and computer programming. <a style="color: #fff; " target="_blank" href="https://code.org/learn">Hour Of Code</a>
+      </div>
+      <p style="font-size:18px;line-height:3;text-align:center">Upload your profile picture to generate one like the shown below. Change your profile picture to support and promote <b>#HourOfcode</b></p>
+      
+      
+      <div class="transform-app">
+        <input type="file" id="fileElem" class="hidden">
+        <button class="pure-button pure-button-primary" id="select-photo">Select profile photo</button>&nbsp;<a href="#" id="download-btn" download="profile-picture.png"><button class="pure-button download-btn">Download</button></a><br>
+        <canvas id="canvas" class="magic pure-img" width="800" height="800"></canvas><br>
+        <a href="#" id="download-btn" download="profile-picture.png"><button class="pure-button download-btn">Download</button></a>
+    
+      </div>
+      <div class="push"></div>
+    </div>
+    <footer class="footer">
+      <center>
+        
+        Developed By <a href="https://mozillians.org/en-US/u/mukeshpathak345/" target="_blank">Mukesh Pathak Mike</a><br/>
+        Hosted proudly on <a href="https://github.com/mukeshpathak345/mozilla-tag">github.com</a>
+      </center>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
